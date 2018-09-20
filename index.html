@@ -4,7 +4,7 @@
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>blueprint</title>
+<title>magazine</title>
 <!--google fonts-->
 <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 <!--flexbox framework-->
@@ -19,24 +19,49 @@
 <script>
               new WOW().init();
               </script>
-              
+
 <!--cdn jquery-->
 
 </head>
-
+<!-- My code starts here -->
 <body>
 <div id ="header">
 <div class="row">
-	
-	<div class="column two"><h1>Header</h1></div>
-	<div class="column eight"><ul id="nav"><li><a href="#">Link</a></li><li><a href="#">Link</a></li><li><a href="#">Link</a></li><li><a href="#">Link</a></li><li><a href="#">Link</a></li><li><a href="#">Link</a></li></ul></div>
+
+	<div class="column two"><h1>Logo goes here</h1></div>
+	<div class="column eight">
+    <ul id="nav">
+      <li><a href="#">Chef</a></li>
+      <li><a href="#">Recipe</a></li>
+      <li><a href="#">Top ten</a></li>
+      <li><a href="#">Wine</a></li>
+      <li><a href="#">Editorial</a></li>
+      <li><a href="#">Party</a></li>
+      <li><a href="#">Dinner</a></li>
+    </ul>
+  </div>
 	<div class="column two">social</div>
 	</div>
-</div>
+</div> <!-- end header div -->
+
+<!-- hero image here -->
 <div id="hero">
-	<h1>Inspirational Message</h1>
+	<h1>Inspirational Message/ Sapori Unici - Unique Flavors</h1>
 </div>
+<!-- end hero image  -->
+
+<!-- sample Featured chef section here -->
+<h2>Featured Chef section here</h2>
+<div class="container" id="overlap">
+  <div class="over" id="one"><h3>One/ image one here</h3></div>
+  <div class="over" id="two"><h3>Two/ image two here</h3></div>
+  <div class="over" id="three"><h3>Three/ image three here</h3></div>
+  <div class="over" id="four"><h3>Four/ Paragraph here</h3></div>
+</div>
+<!-- end featured chef section -->
+
 <h2>Responsive layout with flexbox. flex: 1 1 250px;</h2>
+
 <div class="container" id="main">
 
 <div class="row">
@@ -72,16 +97,16 @@
 			<div class="column six o2">
 				<h3>right</h3>
 			</div>
-			
-			
+
+
 		</div>
-		
-		
-		
+
+
+
 	</div>
 	<h2>Responsive layout with grid. grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));</h2>
 	<div class="container" id="grid">
-	
+
 
 		<div class="child"><h3>Elephants</h3></div>
 	<div class="child"><h3>Rhinos</h3></div>
@@ -98,33 +123,33 @@
 		<div class="over" id="one"><h3>One</h3></div>
 		<div class="over" id="two"><h3>Two</h3></div>
 		<div class="over" id="three"><h3>Three</h3></div>
-		<div class="over" id="four"><h3>Four</h3></div>	
+		<div class="over" id="four"><h3>Four</h3></div>
 	</div>
-	
+
 	<div class="row_lg"><h1>Call to Action</h1></div>
 	<div class="container" id="push_pull">
 	<div class="row">
 	<div class="column pull"><h3>Pulls upward</h3></div>
 	<div class="column push"><h3>Pushes down</h3></div>
-	
+
 	</div>
 	</div>
-	
+
 	<div class="container" id="wow">
 	<div class="row">
 	<div class="column wow six fadeInLeftBig" data-wow-offset="400"><img src="img/doge.jpg" alt="doge"/></div>
 	<div class="column wow six box fadeInRightBig" data-wow-offset="400"><h3>Perfectly centered headline...even if the line breaks.</h3></div>
-	
+
 	</div>
 	</div>
-	
+
 	<div class="container" id="shapes">
 		<h3>CSS SHAPES</h3>
 	<div class="over" id="shape_1"><h3>One</h3></div>
 		<div class="over" id="shape_2"><h3>Two</h3></div>
 		<div class="over" id="shape_3"><h3>Three</h3></div>
 		<div class="over" id="shape_4"><h3>Four</h3></div>
-	
+
 	</div>
 <div class="container" id="modular">
 		<div id="a"><h1>A modular design available in multiple configurations</h1></div>
@@ -140,14 +165,17 @@
 	<div id="fade_2" class="wow fadeIn" data-wow-offset="400"><h3>Vernacular</h3></div>
 	<div id="fade_3" class="wow fadeIn" data-wow-offset="500"><h3>Pumpernickle</h3></div>
 	<div id="fade_4" class="wow fadeIn" data-wow-offset="100"><h3>Delicious</h3></div>
-	
-	</div>
-<div class="container" id="footer">
-	<h1>Footer</h1>
-</div>
 
-	
-<script src="js/rellax.js"></script> 
+	</div>
+
+  <!-- footer starts here -->
+<div class="container" id="footer">
+	<h1>Footer, social links, address etc goes here</h1>
+</div>
+<!-- footer end -->
+
+
+<script src="js/rellax.js"></script>
 <script>
     	var rellax = new Rellax('.rellax', {
         // center: true
@@ -156,7 +184,7 @@
             console.log(position);
         }
       });
-    </script> 
+    </script>
 
 </body>
 </html>
