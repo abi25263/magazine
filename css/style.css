@@ -16,7 +16,7 @@
     color: white;
 }
 .oil {
-    background: blue;/*delete this. for demo*/
+    background: #F4C6AA;/*delete this. for demo*/
     min-height: 70vh;/*delete this. for demo*/
     color: white;/*delete this. for demo*/
 }
@@ -25,7 +25,7 @@
     transition: all 1s ease;/*delete this. for demo*/
 }
 #grid > div:hover, .item:hover, .over:hover, .pull:hover, .push:hover, #modular > div:hover, #fade >div:hover {
-    background: blue;/*delete this. for demo*/
+    background: yellow;/*delete this. for demo*/
     color: white;/*delete this. for demo*/
     background-blend-mode: lighten;/*delete this. for demo*/
 }
@@ -312,7 +312,7 @@ Header styles
 
 .masthead {
     padding: 0;
-    background-color: #0000ff;
+    background-color: #25191c;
 }
 
 @media screen and (min-width: 25em) {
@@ -479,18 +479,18 @@ Modules
 /* CTA */
 
 .cta {
-    padding: 3em;
+    padding: 1em;
     background: #b51c35;
     text-align: center;
 }
 
 .cta a {
-    padding: 0 .5em;
-    font-size: 2em;
-    font-weight: 900;
+    /* padding: 0 .5em; */
+    font-size: 1em;
+    font-weight: 100;
     color: #fffced;
     text-decoration: none;
-    border: 5px solid #fffced;
+    /* border: 5px solid #fffced; */
 }
 
 @media screen and (min-width: 40em) {
