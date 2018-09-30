@@ -25,181 +25,199 @@
 <!--cdn jquery-->
 
 </head>
-<!-- My code starts here -->
-<body class="site">
-  <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-  <header class="masthead">
-      <div class="identity">
-          <h1 class="site-title">
-              <span class="icon-mmlogo"><img src="gfx/mmlogo.svg"></span>Sapori Unici - Unique Flavours</a>
-          </h1>
-      </div><!-- .identity -->
+<body>
+<!--header starts here -->
+<header class="masthead">
+    <div class="identity">
+        <h1 class="site-title">
+            <span class="icon-mmlogo"><img src="gfx/mmlogo.svg"></span>SAPORI UNICI</a>
+        </h1>
+    </div><!-- .identity -->
+    <nav id="multi-level-nav" class="menu">
+        <ul>
+            <li><a href="#">Chef</a></li>
+            <li><a href="#">Wine Maker</a></li>
+            <li><a href="#">Top 10 </a></li>
+            <li><a href="#">Party</a></li>
+            <li><a href="#">Dinner</a></li>
+            <li><a href="#">Editorial</a></li>
+            <li><a href="#">Recipe</a></li>
+            <!-- <li><a class="reserve" href="#">Make a Reservation</a></li> -->
+        </ul>
+    </nav><!-- #multi-level-nav .menu -->
+    <figure class="feature">
+        <img src="img/pasta1.jpg" alt="hero"/>
+    </figure>
+</header><!-- .masthead -->
+<!-- header ends -->
+
+<!-- chef section starts here -->
+<section class="chef">
+  <h1>Meet the Massimo Bottura</h1>
+  <div class="container" id="grid">
+    <div class="child">
       <figure class="feature">
-          <img src="img/pasta.jpg" alt="hero"/>
+        <img src="img/chef.jpg" alt="hero"/>
       </figure>
-      <nav id="multi-level-nav" class="menu">
-          <ul>
-              <li><a href="#">Chef</a></li>
-              <li><a href="#">Wine Maker</a></li>
-              <li><a href="#">Top 10 </a></li>
-              <li><a href="#">Party</a></li>
-              <li><a href="#">Dinner</a></li>
-              <li><a href="#">Editorial</a></li>
-              <li><a href="#">Recipe</a></li>
-              <!-- <li><a class="reserve" href="#">Make a Reservation</a></li> -->
-          </ul>
-      </nav><!-- #multi-level-nav .menu -->
-  </header><!-- .masthead -->
+    </div>
+  <div class="child"><h3>Never trust a skiny guy</h3>
+    <!-- <div class="cta">
+        <a href="#">Book a Reservation!</a>
+    </div><!-- .cta -->
+  </div>
+  </div>
+</section>
+<!-- end chef section -->
 
-  <!-- main section starts here -->
-  <main id="content" class="main-area">
-        <section class="splash grid">
-            <div class="splash-content">
-                <h2 class="content-title">Welcome to Sapori Unici</h2>
-                <div class="splash-text">
-                    <p>Sapori Unici is food magazine that deveto to the Italian cuisine.  <strong>Sapori Unici</strong></p>
-                </div><!-- .splash-text -->
-            </div><!-- .splash-content -->
-        </section><!-- .splash -->
+<!-- Top 10 scetion goes here -->
+<section class="editorial">
+  <div class="oil">
+    <!-- <img src="img/chef.jpg" alt="hero"/> -->
+    <h1> Top 10 kitchen items</h1>
+  </div>
+</section>
 
-        <div class="cta">
-            <a href="#">Book a Reservation!</a>
-        </div><!-- .cta -->
+<!-- end top 10 items -->
 
-        <section class="main-pitch">
-            <div class="three-reasons centered">
-                <figure class="reason">
-                    <a href="">
-                        <img
-                             src="images/mainpromo/welcome02-400.jpg"
-                             alt=""
-                             srcset="images/mainpromo/welcome02-400.jpg 400w,
-                                     images/mainpromo/welcome02-800.jpg 800w"
-                             sizes="(max-width: 400px) 400px, 100vw">
-                    </a>
-                    <figcaption>
-                        <h3 class="content-title">A Room with a View</h3>
-                        <p>Every room at Moonwalk Manor, whether you are staying in a discount suite or going Apartment Class&reg;, has a panoramic view.</p>
-                        <a class="content-button" href="#">Learn More<span class="screen-reader-text"> about the views.</span></a>
-                    </figcaption>
-                </figure><!-- .reason -->
-                <figure class="reason">
-                    <a href="">
-                        <img
-                            src="images/mainpromo/welcome03-400.jpg"
-                            alt=""
-                            srcset="images/mainpromo/welcome03-400.jpg 400w,
-                                    images/mainpromo/welcome03-800.jpg 800w"
-                            sizes="(max-width: 400px) 400px, 100vw"
-                        >
-                    </a>
-                    <figcaption>
-                        <h3 class="content-title">Luxurious Sleep</h3>
-                        <p>Yes, you're on the moon, but that doesn't mean gravity won't do its work on your body. After a long day of excitement, bunk down in our luxurious beds to recharge for the next day.</p>
-                        <a class="content-button" href="#">Learn More<span class="screen-reader-text"> about our amazing beds.</span></a>
-                    </figcaption>
-                </figure><!-- .reason -->
-                <figure class="reason">
-                    <a href="">
-                        <img
-                            src="images/mainpromo/welcome04-400.jpg"
-                            alt=""
-                            srcset="images/mainpromo/welcome04-400.jpg 400w,
-                                    images/mainpromo/welcome04-800.jpg 800w"
-                            sizes="(max-width: 400px) 400px, 100vw"
-                        >
-                    </a>
-                    <figcaption>
-                        <h3 class="content-title">First Class Treatment</h3>
-                        <p>Your comfort and safety is our priority. At Moonwalk Manor we pride ourselves on first class treatment from the moment you arrive to the moment you set your foot back on earth. Even during a meteor event.</p>
-                        <a class="content-button" href="#">Learn More<span class="screen-reader-text"> about meteor shelters and our liability waiver.</span></a>
-                    </figcaption>
-                </figure><!-- .reason -->
-            </div><!-- .three-reasons centered -->
-        </section><!-- .main-pitch -->
+<!-- <h2>Responsive layout with flexbox. flex: 1 1 250px;</h2> -->
 
-        <section class="more">
-            <div class="more-content">
-                <h2 class="content-title">The Moonwalk Experience</h2>
-                <p>You're not merely going to a hotel. You are going to a new planetary body, held in earth's gravitational embrace, that travels on its own orbit around the sun. The experiences you'll have with us are unlike any other.<p>
-            </div><!-- .more-content -->
-        </section><!-- .more -->
+<!-- <div class="container" id="main">
 
-        <section class="features centered">
-            <figure class="feature">
-                <a href="#">
-                    <img
-                        src="images/experience/apartmentclass-400.jpg"
-                        alt=""
-                        srcset="images/experience/apartmentclass-400.jpg 400w,
-                                images/experience/apartmentclass-800.jpg 800w"
-                        sizes="(max-width: 400px) 400px, 100vw"
-                    >
-                </a>
-                <figcaption>
-                    <h3 class="content-title">Apartment Class&reg; Accommodations</h3>
-                    <p>Stay on the moon with the comforts of your own home. Moonwalk Manor Apartment Class&reg; offers a full-scale New York style apartment with all the luxuries you'd expect in your own home and more.</p>
-                    <a class="content-button" href="#">Learn More<span class="screen-reader-text"> about Apartment Class&reg; living.</span></a>
-                </figcaption>
-            </figure><!-- .feature -->
-            <figure class="feature">
-                <a href="#">
-                    <img
-                        src="images/experience/fivestardining-400.jpg"
-                        alt=""
-                        srcset="images/experience/fivestardining-400.jpg 400w,
-                                images/experience/fivestardining-800.jpg 800w"
-                        sizes="(max-width: 400px) 400px, 100vw"
-                    >
-                </a>
-                <figcaption>
-                    <h3 class="content-title">Five-Star Dining</h3>
-                    <p>Before we left earth, we convinced the best chefs in the business to come with us. Is low gravity an ingredient in fine dining? Only one way to find out!</p>
-                    <a class="content-button" href="#">Learn More<span class="screen-reader-text"> about Explosive Decompression Ice Cream.</span></a>
-                </figcaption>
-            </figure><!-- .feature -->
-            <figure class="feature">
-                <a href="#">
-                    <img
-                        src="images/experience/gravitygym-400.jpg"
-                        alt=""
-                        srcset="images/experience/gravitygym-400.jpg 400w,
-                                images/experience/gravitygym-800.jpg 800w"
-                        sizes="(max-width: 400px) 400px, 100vw"
-                    >
-                </a>
-                <figcaption>
-                    <h3 class="content-title">Gravity Gym</h3>
-                    <p>Our Gravity Gym offers exercises you've never even dreamed of. From our Centrifugal Super-G Track to our Zero-G Yoga Studio, Moonwalk Manor has a new experience to offer everyone.</p>
-                    <a class="content-button" href="#">Learn More<span class="screen-reader-text"> about freefall vertigo.</span></a>
-                </figcaption>
-            </figure><!-- .feature -->
-            <figure class="feature">
-                <a href="#">
-                    <img
-                        src="images/experience/spa-400.jpg"
-                        alt=""
-                        srcset="images/experience/spa-400.jpg 400w,
-                                images/experience/spa-800.jpg 800w"
-                        sizes="(max-width: 400px) 400px, 100vw"
-                    >
-                </a>
-                <figcaption>
-                    <h3 class="content-title">Moon Dust Spa</h3>
-                    <p>Regolith is what makes the moon grey. It is also what will rejuvinate  your skin, making it silky smooth to the touch. The unique properties of moon dust makes it an ideal exfoliant and skin conditioner. Visit our spa and find out for yourself.</p>
-                    <a class="content-button" href="#">Learn More<span class="screen-reader-text"> about regolith rash.</span></a>
-                </figcaption>
-            </figure><!-- .feature -->
+<div class="row">
+	<div class="item"><h3>Elephants</h3></div>
+	<div class="item"><h3>Rhinos</h3></div>
+	<div class="item"><h3>Walrusi</h3></div>
+	<div class="item"><h3>Vermin</h3></div>
+	<div class="item"><h3>Weasels</h3></div>
+	<div class="item"><h3>Turkeys</h3></div>
+	<div class="item"><h3>Hippos</h3></div>
+	<div class="item"><h3>Dashers</h3></div>
+	<div class="item"><h3>Potatoes</h3></div>
+	</div>
+	</div> -->
 
-        </section><!-- .features centered -->
+  <!--Wine section start  -->
+  <section id="content"class="winemaker">
+    <ul class="cards">
+      <li class="card-item double">
+        <a href="#">
+              <figure class="card">
+                  <img src="img/chef.jpg" alt="hero"/>
+                  <figcaption class="caption">
+                      <h3 class="caption-title">Wine Maker</h3>
+                      <p>The Oslo fjord is beautiful in the summer.</p>
+                  </figcaption>
+              </figure>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!-- wine section end -->
+
+	<div class="container large">
+		<div class="row">
+			<div class="column six">
+				<div class="row">
+				<div class="column twelve">
+				<h3>vert 1</h3>
+				<p>Elit eget parturient curabitur ullamcorper ultrices condimentum vestibulum torquent vestibulum massa parturient ultrices fusce amet in quam habitasse tincidunt suspendisse dis semper ullamcorper adipiscing.</p>
+				</div>
+				<div class="column twelve">
+				<h3>vert 2</h3>
+				<p>Elit eget parturient curabitur ullamcorper ultrices condimentum vestibulum torquent vestibulum massa parturient ultrices fusce amet in quam habitasse tincidunt suspendisse dis semper ullamcorper adipiscing.</p>
+				</div>
+				<div class="column twelve">
+				<h3>vert 3</h3>
+				<p>Elit eget parturient curabitur ullamcorper ultrices condimentum vestibulum torquent vestibulum massa parturient ultrices fusce amet in quam habitasse tincidunt suspendisse dis semper ullamcorper adipiscing.</p>
+				</div>
+			</div>
+			</div>
+			<div class="column six o2">
+				<h3>right</h3>
+			</div>
 
 
-    </main>
+		</div>
 
 
 
+	</div>
+
+  <!-- Recipe section starts -->
+  <section class="editorial">
+    <div class="oil">
+      <h1> Seasonal recipe section here</h1>
+      <img src="img/recipe.jpg" alt="recipe"/>
+
+    </div>
+  </section>
 
 
+  <!-- recipe ends -->
+
+	<h2>Overlapping layout with grid</h2>
+	<div class="container" id="overlap">
+		<div class="over" id="one"><h3>One</h3></div>
+		<div class="over" id="two"><h3>Two</h3></div>
+		<div class="over" id="three"><h3>Three</h3></div>
+		<div class="over" id="four"><h3>Four</h3></div>
+	</div>
+<!-- editorail section -->
+<section class="editorial">
+  <div class="oil">
+    <h1> Why oil pulling is important and its benefits</h1>
+  </div>
+</section>
+
+	<!-- <div class="row_lg"><h1>why oil pulling is so imortant and its benefits</h1></div> -->
+  <!-- end editorial -->
+
+	<div class="container" id="push_pull">
+	<div class="row">
+	<div class="column pull"><h3>Pulls upward</h3></div>
+	<div class="column push"><h3>Pushes down</h3></div>
+
+	</div>
+	</div>
+
+	<div class="container" id="wow">
+	<div class="row">
+	<div class="column wow six fadeInLeftBig" data-wow-offset="400"><img src="img/doge.jpg" alt="doge"/></div>
+	<div class="column wow six box fadeInRightBig" data-wow-offset="400"><h3>Perfectly centered headline...even if the line breaks.</h3></div>
+
+	</div>
+	</div>
+
+	<div class="container" id="shapes">
+		<h3>CSS SHAPES</h3>
+	<div class="over" id="shape_1"><h3>One</h3></div>
+		<div class="over" id="shape_2"><h3>Two</h3></div>
+		<div class="over" id="shape_3"><h3>Three</h3></div>
+		<div class="over" id="shape_4"><h3>Four</h3></div>
+
+	</div>
+<div class="container" id="modular">
+		<div id="a"><h1>A modular design available in multiple configurations</h1></div>
+		<div id="b"><h4>Retractable Alligator</h4><p>Dui convallis a sapien ut ut vel at ultricies semper phasellus fermentum ultricies rhoncus lacus ligula.</p></div>
+		<div id="c"><h4>Alternative Conversion</h4><p>Phasellus fermentum ultricies rhoncus lacus ligula luctus sagittis parturient ultricies. Dui convallis a sapien ut ut vel at ultricies.</p></div>
+		<div id="d"><img src="img/modular.jpg" alt="modular"/></div>
+		<div id="e"><h4>Perpendicular Thermos</h4><p>Per condimentum a facilisi et a taciti auctor nibh in etiam per fermentum consequat eu vulputate imperdiet potenti eros sagittis potenti sit a. </p></div>
+		<div id="f"><h4>Callibrating Annuities</h4><p>Parturient habitasse cubilia posuere ut magna rutrum consequat varius consectetur consectetur vestibulum adipiscing netus morbi.</p></div>
+		<div id="g"><h4>Imposter Syndrome</h4><p>Feugiat luctus sagittis parturient ultricies. Dui convallis a sapien ut ut vel at ultricies semper phasellus fermentum ultricies rhoncus.</p></div>
+	</div>
+	<div class="container" id="fade">
+	<div id="fade_1" class="wow fadeIn" data-wow-offset="300"><h3>Asterisk</h3></div>
+	<div id="fade_2" class="wow fadeIn" data-wow-offset="400"><h3>Vernacular</h3></div>
+	<div id="fade_3" class="wow fadeIn" data-wow-offset="500"><h3>Pumpernickle</h3></div>
+	<div id="fade_4" class="wow fadeIn" data-wow-offset="100"><h3>Delicious</h3></div>
+
+	</div>
+
+  <!-- footer starts here -->
+<div class="container" id="footer">
+	<h1>Footer, social links, address etc goes here</h1>
+</div>
+<!-- footer end -->
 
 
 <script src="js/rellax.js"></script>
