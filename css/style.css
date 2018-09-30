@@ -52,7 +52,7 @@
 }
 /*typographic*/
 body {
-    color: #363c41;
+    color: #DF5241;
     font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;/*delete this. for demo*/
     font-size: 1.6rem;
     font-weight: 300;
@@ -66,7 +66,7 @@ p {
     margin-bottom: 2.5rem;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: 2.0rem;
 }
 h1 {
@@ -289,8 +289,8 @@ General styling
 h1,
 h2,
 h3 {
-	text-align: center;
-	margin: 0;
+	text-align: left;
+	margin: 20px;
 	padding: 1em 0;
 }
 
@@ -312,7 +312,7 @@ Header styles
 
 .masthead {
     padding: 0;
-    background-color: #25191c;
+    background-color: #3C43ED;
 }
 
 @media screen and (min-width: 25em) {
@@ -369,7 +369,7 @@ Mobile-first menu
 --------------------------------------------------------------*/
 .menu {
 	padding: 1em 2em;
-		background-color: #002254;
+		/* background-color: #002254; */
 }
 .menu ul {
     margin: 0;
@@ -427,7 +427,7 @@ Mobile-first menu
 	}
 
     .menu a {
-        padding: .8em 1em;
+        padding: .8em 2.5em;
         border-bottom: none;
     }
 
@@ -711,7 +711,7 @@ Accessibility from the text cards --read the code
 
 .topten li {
 	margin-bottom: 1em;
-	background: orange;
+	background: #292728;
 	list-style-type: none;
 }
 
@@ -722,6 +722,57 @@ Accessibility from the text cards --read the code
   display: grid;
 }
 /* end  */
+/* chef section test */
+.container1 {
+	margin: 0 auto;
+	max-width: 120rem;
+
+	/* padding: 0 2rem;/*delete padding if you don't like it */
+	border: thin solid #6C8AEA;
+}
+#overlap1 {
+  padding-top:40px;
+	padding-bottom:40px;
+	display: grid;
+    grid-template-columns:repeat(10, 1fr);
+grid-template-rows:repeat(6, 100px);
+}
+#onee {
+  grid-column: 3/10;
+  grid-row: 1/7;
+  grid-column-start: 1;
+  /* grid-column-end: span col3-start;
+  grid-row-start: 2;
+  grid-row-end: span 2; */
+}
+#twoo {
+  grid-column: 7 /12;
+  grid-row: 3/8;
+  background-color: #FEDA2F;
+}
+
+/* clip path shapes  */
+#shapess {
+  padding-top:40px;
+	padding-bottom:40px;
+	display: grid;
+    grid-template-columns:repeat(10, 2fr);
+grid-template-rows:repeat(8, 100px);
+background-color: #3C43ED;
+}
+
+/*--------------------------------------------------------------
+footer section
+---------------------------------------------------------------  */
+.colophon {
+	margin: 0 auto;
+	max-width: 140rem;
+	padding: 0 2rem;/*delete padding if you don't like it*/
+}
+#footer {
+  background-color: #292728;
+  margin-top: 10em;
+}
 /*--------------------------------------------------------------
 Use flex to create a three-bucket layout
 --------------------------------------------------------------*/
