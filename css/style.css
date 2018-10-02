@@ -25,7 +25,7 @@
     transition: all 1s ease;/*delete this. for demo*/
 }
 #grid > div:hover, .item:hover, .over:hover, .pull:hover, .push:hover, #modular > div:hover, #fade >div:hover {
-    background: yellow;/*delete this. for demo*/
+    /* background: yellow;/*delete this. for demo*/ */
     color: white;/*delete this. for demo*/
     background-blend-mode: lighten;/*delete this. for demo*/
 }
@@ -312,7 +312,7 @@ Header styles
 
 .masthead {
     padding: 0;
-    background-color: #3C43ED;
+    background-color: #000000;
 }
 
 @media screen and (min-width: 25em) {
@@ -701,7 +701,7 @@ Accessibility from the text cards --read the code
 /* top 10 code here */
 .topten {
 	padding: 2em 1em 1em;
-	background: white;
+	background: #f8f8f8;
 }
 
 .topten ul {
@@ -729,18 +729,18 @@ Accessibility from the text cards --read the code
 	max-width: 120rem;
 
 	/* padding: 0 2rem;/*delete padding if you don't like it */
-	border: thin solid #6C8AEA;
+	/* border: thin solid #6C8AEA; */
 }
 #overlap1 {
   padding-top:40px;
 	padding-bottom:40px;
 	display: grid;
     grid-template-columns:repeat(10, 1fr);
-grid-template-rows:repeat(6, 100px);
+grid-template-rows:repeat(8, 100px);
 }
 #onee {
   grid-column: 3/10;
-  grid-row: 1/7;
+  grid-row: 2/7;
   grid-column-start: 1;
   /* grid-column-end: span col3-start;
   grid-row-start: 2;
@@ -762,6 +762,17 @@ grid-template-rows:repeat(8, 100px);
 background-color: #3C43ED;
 }
 
+/* test for hero image text */
+.bottom {
+  position: absolute;
+  bottom: 8px;
+    left: 16px;
+}
+.feature {
+  /* position: relative; */
+   text-align: center;
+   color: #000000;
+}
 /* oil pulling test */
 /* .secondary {
   grid-area: main;
@@ -779,6 +790,11 @@ background-color: #3C43ED;
   display: block;
 } */
 
+.vertical-rl {
+  writing-mode: vertical-rl;
+  color: #0074d9;
+  display: inline-block;
+}
 /*--------------------------------------------------------------
 footer section
 ---------------------------------------------------------------  */

@@ -54,7 +54,7 @@ img {
 	margin: 0 auto;
 	max-width: 120rem;
 	padding: 0 2rem;/*delete padding if you don't like it*/
-	border: thin solid #6C8AEA;
+	/* border: thin solid #6C8AEA; */
 }
 .container.medium {
 	max-width: 100rem;
@@ -109,7 +109,7 @@ grid-template-rows:repeat(12, 100px);
 .over {display: flex;
 	align-items: center;
 	justify-content: center;
-	outline: thin blue solid;
+	/* outline: thin blue solid; */
 	padding: 1rem;}
 #one {grid-column: 1 /8; grid-row: 1/6;}
 #two {grid-column: 2 /10; grid-row: 5/10;}
@@ -202,7 +202,7 @@ grid-template-rows:1fr 1fr 1fr 1fr 1fr;}
 	align-items: center;
 	justify-content: center;
 	flex: 1 1 250px;
-	outline: thin blue solid;
+	/* outline: thin blue solid; */
 	padding: 1rem;
 	min-height: 300px;
 }
