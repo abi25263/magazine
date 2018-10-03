@@ -53,7 +53,8 @@
 /*typographic*/
 body {
     color: #DF5241;
-    font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;/*delete this. for demo*/
+    /* font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 1.6;
