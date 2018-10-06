@@ -53,7 +53,7 @@ img {
 .container {
 	margin: 0 auto;
 	max-width: 120rem;
-	padding: 0 2rem;/*delete padding if you don't like it*/
+	/* padding: 0 2rem;/*delete padding if you don't like it*/ */
 	/* border: thin solid #6C8AEA; */
 }
 .container.medium {
