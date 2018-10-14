@@ -89,6 +89,17 @@ h4 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+h5 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 3.2rem;
+  font-weight: 800;
+  line-height: auto;
+  padding: none;
+  margin: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: coral;
+}
 
 
 /****header navbar style***********/
@@ -546,7 +557,7 @@ container 2 chef section style here-------------------------  */
     width: auto;
     overflow: hidden;
     position: relative;
-    /* border: 3px solid #000; */
+    border: 3px solid #000;
     margin: 4rem 0;
     box-shadow: 10px 10px 0 0 coral;
     top: 0px;
@@ -1031,7 +1042,7 @@ Chef homepage starts here *******************/
 }
 .chefhometext {
   grid-column: 12/18;
-  grid-row: 7/12;
+  grid-row: 10/12;
   transform: rotate(90deg);
   /* color: red; */
   font-style: extrabold;
@@ -1041,7 +1052,7 @@ Chef homepage starts here *******************/
   /* text-shadow: 1px 1px 2px ; */
 }
 .chefhometexttwo {
-  grid-column: 10/15;
+  grid-column: 12/17;
   grid-row: 4;
   transform: rotate(0deg);
   font-style: bold;
@@ -1058,7 +1069,7 @@ Chef homepage starts here *******************/
 }
 .chefhometextthree {
   grid-column: 2/10;
-  grid-row: 15/17;
+  grid-row: 16/17;
   transform: rotate(0deg);
   font-style: bold;
   font-size: 1.2em;
@@ -1098,10 +1109,10 @@ Chef homepage starts here *******************/
 } */
 
 .chefhometextfour {
-  grid-column: 9/16;
-  grid-row: 10/19;
+  grid-column: 10/20;
+  grid-row: 7/20;
   transform: rotate(0deg);
-  font-style: bold;
+  /* font-style: bold; */
   font-size: 1.2em;
   line-height: 40px;
   color: black;
@@ -1150,8 +1161,8 @@ Chef homepage starts here *******************/
 }
 
 .chefhometwo {
-    grid-column: 10/16;
-    grid-row: 14/16;
+    grid-column: 11/16;
+    grid-row: 15/17;
     padding-bottom: 5vh;
 }
 
@@ -1169,9 +1180,19 @@ Chef homepage starts here *******************/
     height: 100%;
     width: 100%;
 }
+.chefhomefour {
+    grid-column: 10/19;
+    grid-row: 15/20;
+    padding-bottom: 5vh;
+}
+
+.chefhomefour img {
+    height: 100%;
+    width: 100%;
+}
 .containerparagraphchefthree {
-  text-transform: lowercase;
-  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  text-transform: capitalize;
   font-weight: 50;
   font-size: 2em;
   text-align: left;
@@ -1179,21 +1200,21 @@ Chef homepage starts here *******************/
   width: auto;
   padding-top: 3vh;
   z-index: 999;
-  font-style: italic;
+  font-style: normal;
   /* background-color: #ffee56; */
   /* border: 2px solid red;
     padding: 10px;
     border-radius: 25px; */
-  transform: rotate(-20deg);
+  /* transform: rotate(-20deg); */
 }
 .containerparagraphchefthree::before{
-  font-family:Arial;
+  font-family: 'Fira Sans', sans-serif;
   content: "\201C";
   color:coral;
   font-size:4em;
   position: absolute;
   left: 10px;
-  top:-10px;
+  top:-20px;
 }
 
 .containerparagraphchefthree::after{
@@ -1205,11 +1226,35 @@ Chef homepage starts here *******************/
   color:#333333;
   font-style: normal;
   font-weight: bold;
+  margin-top:1.2em;
+}
+/* ****************** pull quotes  */
+.containerparagraphcheftwo::before{
+  font-family: 'Fira Sans', sans-serif;
+  content: "\201C";
+  color:coral;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-20px;
+}
+
+.containerparagraphcheftwo::after{
+  content: '';
+}
+
+.containerparagraphcheftwo span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
   margin-top:1em;
 }
+/*pull quote end  */
+
 .containerparagraphcheftwo {
-  text-transform: lowercase;
-  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  text-transform: capitalize;
   font-weight: 50;
   font-size: 2em;
   line-height: 40px;
@@ -1219,6 +1264,8 @@ Chef homepage starts here *******************/
   padding-top: 2vh;
   z-index: 999;
   color: #000000;
+
+  font-style: normal;
   /* background-color: #ffee56; */
 }
 
@@ -1240,8 +1287,8 @@ Chef homepage starts here *******************/
 .containerparagraphcheffour {
   text-transform: lowercase;
   /* text-transform: capitalize; */
-  font-weight: bold;
-  font-size: 2.7em;
+  font-weight: normal;
+  font-size: 2.1em;
 
   line-height: 40px;
   text-align: left;
@@ -1249,8 +1296,8 @@ Chef homepage starts here *******************/
   width: auto;
   padding-top: 2vh;
   z-index: 999;
-  color: grey;
-  /* background-color: #ffee56; */
+  color: #000000;
+  /* background-color: coral;  */
 }
 .containerparagraphcheffive {
   text-transform: lowercase;
@@ -1264,12 +1311,12 @@ Chef homepage starts here *******************/
   width: auto;
   padding-top: 2vh;
   z-index: 999;
-  color: blue;
+  color: grey;
   /* background-color: #ffee56; */
 }
 .chefhometextfive {
-  grid-column: 5/10;
-  grid-row: 16/18;
+  grid-column: 9/14;
+  grid-row: 15/18;
   top: -20vh;
   transform: rotate(90deg);
   /* color: red; */
@@ -1278,4 +1325,199 @@ Chef homepage starts here *******************/
   /* text-transform: lowercase; */
   /* font-style: italic; */
   /* text-shadow: 1px 1px 2px ; */
+}
+
+.chefhometextsix {
+  grid-column: 2/10;
+  grid-row: 12/20;
+  top: -20vh;
+  /* transform: rotate(90deg); */
+  /* color: red; */
+  font-style: extrabold;
+  font-size: 2.5em;
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+  /* text-shadow: 1px 1px 2px ; */
+}
+.containerparagraphchefsix {
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+  font-weight: 30;
+  font-size: 1em;
+  line-height: 45px;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+  /* background-color: #ffee56; */
+
+}
+
+/********************************************
+topten homepage ****************************/
+#toptenhomepage {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(150, 50px);
+    height: 450vh;
+    max-width: 97vw;
+    margin-top:40px;
+}
+
+.containerheadertopten {
+    grid-column: 8;
+    grid-row: 1/2;
+    position: relative;
+    top: 20px;
+}
+.toptenhometextone {
+  grid-column: 12/18;
+  grid-row: 10/12;
+  transform: rotate(90deg);
+  font-style: extrabold;
+  font-size: 2.5em;
+}
+
+#toptenhomepage .containerheadertopten {
+  /* margin-top:50px; */
+    grid-column: 1/10;
+    grid-row: 2/6;
+    position: relative;
+    top: -20px;
+    line-height: 10em;
+    color: blue;
+}
+
+.containerheadertopten h4 {
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 12em;
+    text-align: right;
+    z-index: 999;
+}
+.toptenhomeone {
+    grid-column: 6/20;
+    grid-row: 8/12;
+}
+.toptenhomeone img {
+    height: 100%;
+    width: 100%;
+}
+.productone {
+  grid-column: 14;
+  grid-row: 1;
+  position: relative;
+  top: 20px;
+  color: coral;
+  /* background-color: yellow; */
+}
+.productone h4 {
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 14em;
+    text-align: right;
+    z-index: 999;
+}
+.toptenhometextone {
+  grid-column: 2/8;
+  grid-row: 12/15;
+  transform: rotate(0deg);
+  font-style: bold;
+  font-size: 2em;
+  line-height: 40px;
+  color: black;
+  /* padding-left:40px; */
+  /* -webkit-text-stroke: 1px blue; */
+  text-align: left;
+}
+.containerparagraphtoptenone h5{
+  /* text-transform: lowercase; */
+  text-transform: capitalize;
+  font-weight: 70;
+  font-size: 2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 3vh;
+  z-index: 999;
+  font-style: normal;
+  /* transform: rotate(-30deg); */
+}
+.textproductone {
+  /* text-transform: capitalize; */
+  font-weight: 70;
+  font-size: 1.2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 3vh;
+  z-index: 999;
+  font-style: normal;
+  padding-left: 20px;
+
+}
+
+/*product 2   */
+.toptenhometwo {
+    grid-column: 1/8;
+    grid-row: 21;
+}
+.toptenhometwo img {
+    height: 100%;
+    width: 100%;
+}
+.producttwo {
+  grid-column: 7;
+  grid-row: 14;
+  position: relative;
+  top: 20px;
+  color: coral;
+  /* background-color: yellow; */
+}
+.producttwo h4 {
+    text-transform: lowercase;
+    font-weight: 900;
+    font-size: 14em;
+    text-align: right;
+    z-index: 999;
+}
+.toptenhometexttwo {
+  grid-column: 8/16;
+  grid-row: 23/28;
+  transform: rotate(0deg);
+  font-style: bold;
+  font-size: 2em;
+  line-height: 40px;
+  color: black;
+  /* padding-left:40px; */
+  /* -webkit-text-stroke: 1px blue; */
+  text-align: left;
+}
+.containerparagraphtoptentwo h5{
+  /* text-transform: lowercase; */
+  text-transform: capitalize;
+  font-weight: 70;
+  font-size: 2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 3vh;
+  z-index: 999;
+  font-style: normal;
+  /* transform: rotate(-30deg); */
+}
+.textproducttwo {
+  /* text-transform: capitalize; */
+  font-weight: 70;
+  font-size: 1.2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 3vh;
+  z-index: 999;
+  font-style: normal;
+  padding-left: 20px;
+
 }
