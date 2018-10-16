@@ -495,7 +495,9 @@ container 2 chef section style here-------------------------  */
   grid-row: 10;
   /* transform: rotate(-10deg); */
   font-style: bold;
-  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 3em;
+  -webkit-text-stroke-width: .5px;
   /* line-height: 40px; */
   /* color: #41553d; */
   /* -webkit-text-stroke-width: .5px; */
@@ -678,7 +680,9 @@ container 3 winemaker section style here-------------------------  */
 
   /* line-height: 4vh; */
   font-style: bold;
-  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 3em;
+  -webkit-text-stroke-width: .5px;
   /* line-height: 40px; */
   color: black;
   /* -webkit-text-stroke: 1px blue; */
@@ -770,7 +774,9 @@ container 4 winemaker section style here-------------------------  */
     font-family: 'Roboto', sans-serif;
     /* line-height: 4vh; */
     font-style: bold;
-    font-size: 1.5em;
+    font-size: 1em;
+    line-height: 3em;
+    -webkit-text-stroke-width: .5px;
     /* line-height: 40px; */
     color: black;
     /* -webkit-text-stroke: 1px blue; */
@@ -837,7 +843,9 @@ container 5 recipe section style here-------------------------  */
   grid-column: 11/17;
   grid-row: 8;
   font-style: bold;
-  font-size: 1.2em;
+  font-size: 1em;
+  line-height: 3em;
+  -webkit-text-stroke-width: .5px;
   /* line-height: 40px; */
   color: black;
   /* -webkit-text-stroke: 1px blue; */
@@ -902,8 +910,10 @@ container 5 summer party section style here-------------------------  */
   grid-row: 6;
   /* transform: rotate(-15deg); */
   color: black;
-  font-style: extrabold;
-  font-size: 1.5rem;
+  font-style: bold;
+  font-size: 1em;
+  line-height: 3em;
+  -webkit-text-stroke-width: .5px;
 }
 
 #event .containerheader {
@@ -955,7 +965,9 @@ container 6 oil pulling section style here-------------------------  */
   /* transform: rotate(-15deg); */
   color: black;
   font-style: extrabold;
-  font-size: 1.2rem;
+  font-size: 1em;
+  line-height: 3em;
+  -webkit-text-stroke-width: .5px;
   /* text-shadow: */
   /* font-style: italic; */
   /* text-shadow: 2px 1px 2px coral, 0 0 25px blue, 0 0 5px darkblue; */
@@ -1036,7 +1048,9 @@ container 7 dinner section style here-------------------------  */
   grid-row: 4;
   color: black;
   font-style: extrabold;
-  font-size: 1.2rem;
+  font-size: 1em;
+  line-height: 3em;
+  -webkit-text-stroke-width: .5px;
 }
 
 
@@ -1410,7 +1424,9 @@ topten homepage ****************************/
     position: relative;
     top: -20px;
     line-height: 10em;
-    color: blue;
+    color: #72aa8b;
+    -webkit-text-stroke-width: 2px;
+
 }
 
 .containerheadertopten h4 {
@@ -1433,7 +1449,7 @@ topten homepage ****************************/
   grid-row: 1;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productone h4 {
@@ -1496,7 +1512,7 @@ topten homepage ****************************/
   grid-row: 14;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .producttwo h4 {
@@ -1558,7 +1574,7 @@ topten homepage ****************************/
   grid-row: 29;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productthree h4 {
@@ -1620,7 +1636,7 @@ topten homepage ****************************/
   grid-row: 37;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productfour h4 {
@@ -1684,7 +1700,7 @@ topten homepage ****************************/
   grid-row: 57;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productfive h4 {
@@ -1747,7 +1763,7 @@ topten homepage ****************************/
   grid-row: 71;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productsix h4 {
@@ -1811,7 +1827,7 @@ topten homepage ****************************/
   grid-row: 81;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productseven h4 {
@@ -1874,7 +1890,7 @@ topten homepage ****************************/
   grid-row: 96;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .producteight h4 {
@@ -1937,7 +1953,7 @@ topten homepage ****************************/
   grid-row: 118;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productnine h4 {
@@ -2000,7 +2016,7 @@ topten homepage ****************************/
   grid-row: 136;
   position: relative;
   top: 20px;
-  color: coral;
+  color: #ca4d46;
   /* background-color: yellow; */
 }
 .productten h4 {
