@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>magazine</title>
+<!--google fonts-->
+<!-- <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> -->
+<!-- google fonts fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<!--flexbox framework-->
+<link href="css/blueprint.css" rel="stylesheet" type="text/css">
+<!--animation css-->
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<!--your styles-->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<!--wow animatons-->
+<script src="js/wow.min.js"></script>
+<script>
+              new WOW().init();
+              </script>
+
+<!--cdn jquery-->
+
+</head>
+<body>
+<<!---*********************************************
+Header section     ************  -->
+
+<nav class="navbar">
+      <a href="#" class="navbar-brand">Sapori Unici</a>
+      <ul>
+          <li id="stories"><a href="#recipes">About</a></li>
+          <li id="recipes"><a href="#Party">Recipe</a></li>
+          <li id="subscribe"><a href="#Winemaker">Dinner</a></li>
+          <li id="about"><a href="#Chef">Event</a></li>
+          <li id="about"><a href="#Chef">Party</a></li>
+          <!-- <li id="about"><a href="#Chef">about</a></li> -->
+      </ul>
+      <button class="navbar-toggler">
+    <span></span>
+  </button>
+  </nav>
+  <!-- header end -->
+
+  <!---*********************************************
+chef container 1 homepage section     ************  -->
+
+  <div class="container" id="homebackground">
+    <div class="container" id="oilhomepage">
+       <div class="item containerheaderoil">
+           <h4>Why oil pulling is important</h4>
+       </div>
+       <div class="item oilhomeone">
+
+           <div class="image__wrapper">
+               <img src="img/oiltwo.jpg" alt="" class="chefimage" />
+           </div>
+       </div>
+
+       <div class="item oilhometwo image" id="westphotohome">
+           <div class="image__wrapper">
+               <img src="img/oil.jpg" alt="" class="chefimage" />
+           </div>
+       </div>
+       <div class="item winehomethree image" id="westphotohome">
+           <div class="image__wrapper">
+               <img src="img/winemaker2.jpg" alt="" class="chefimage" />
+           </div>
+       </div>
+       <div class="item winehomefour image" id="westphotohome">
+           <div class="image__wrapper">
+               <img src="img/wine.jpg" alt="" class="chefimage" />
+           </div>
+       </div>
+       <div class="item winehometext">
+         <p class="containerparagraphchefone">
+           Meet Paul Drapper
+         </p>
+       </div>
+       <div class="item winehometexttwo">
+         <p class="containerparagraphcheftwo">
+           "I have followed my passion for over thirty years to find my voice. The time has come to use it to make visible the invisible"
+         </p>
+       </div>
+       <div class="item winehometextthree">
+         <p class="containerparagraphchefthree">
+           My name is Massimo Bottura.
+           <br />
+           I am an Italian chef born in Modena.
+           <br />
+              I grew up under the Kitchen table at my grandmother Ancella’s Knees, that is where appetite begins for me.
+
+        </P>
+      </div>
+      <div class="item winehometextfour">
+          <p class="containerparagraphcheffour">
+            Inspiration comes from the world around me - from art, music, slow food and fast cars. Catch the flash in the dark because it only passes once.
+          </p>
+     </div>
+     <div class="item winehometextfive">
+        <p class="containerparagraphcheffive">
+          <!-- Expect the unexpected -->
+          <!-- Never trust a skinny Italian chef. -->
+          Cooking is a call to act
+        </p>
+    </div>
+    <div class="item winehometextsix">
+        <p class="containerparagraphwinesix">
+           I have followed my passions for over thirty years to find my voice. The time has come to use it to make visible the invisible.
+            Around the world, we waste one third of the food we produce.
+          In 2016, i founded the non-profit association Food for Soul to empower communities to fight against food waste in the interest of social inclusion and individual wellbeing"
+        </p>
+   </div>
+   </div>
+
+  </div>   <!-- main container ends -->
+
+
+ <div id="footer">
+      <h1>Sapori Unici</h1>
+      <p class="tagfooter">Authentic Italian cuisine</p>
+      <br><i class="fab fa-instagram"></i> <i class="fab fa-spotify"></i> <i class="fab fa-pinterest-p"></i> <i class="fab fa-facebook-square"></i> <a href="https://www.youtube.com/watch?v=dPI-mRFEIH0"><i class="fab fa-youtube"></i></a>
+  </div>
+<!-- navbar script  -->
+<script>
+      const navbarToggler = document.querySelector(".navbar-toggler");
+      const navbarMenu = document.querySelector(".navbar ul");
+      const navbarLinks = document.querySelectorAll(".navbar a");
+
+      navbarToggler.addEventListener("click", navbarTogglerClick);
+
+      function navbarTogglerClick() {
+          navbarToggler.classList.toggle("open-navbar-toggler");
+          navbarMenu.classList.toggle("open");
+      }
+
+      navbarLinks.forEach(elem => elem.addEventListener("click", navbarLinkClick));
+
+      function navbarLinkClick() {
+          if (navbarMenu.classList.contains("open")) {
+              navbarToggler.click();
+          }
+      }
+
+  </script>
+<!-- navbar script ends -->
+
+
+<script src="js/rellax.js"></script>
+<script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
+
+    <!-- text effect script  -->
+
+
+</body>
+</html>

@@ -453,8 +453,8 @@ input {
 	margin-bottom: 1rem;
 }
 .btn:focus, .btn:hover, .btn:link:focus, .btn:link:hover, .btn:visited:focus, .btn:visited:hover, button:focus, button:hover, input[type='button']:focus, input[type='button']:hover, input[type='reset']:focus, input[type='reset']:hover, input[type='submit']:focus, input[type='submit']:hover {
-	background-color: #b4991f;
-	border: 0.1rem solid #b4991f;
+	background-color: #ca4d46;
+	border: 0.1rem solid #ca4d46;
 	outline: 0;
 	color: white;
 }
@@ -471,7 +471,7 @@ input {
 	color: #dbbb2b;
 }
 .btn.outline:focus, .btn.outline:hover, .btn:link.outline:focus, .btn:link.outline:hover, .btn:visited.outline:focus, .btn:visited.outline:hover, button.outline:focus, button.outline:hover, input[type='button'].outline:focus, input[type='button'].outline:hover, input[type='reset'].outline:focus, input[type='reset'].outline:hover, input[type='submit'].outline:focus, input[type='submit'].outline:hover {
-	color: #b4991f;
+	color: #ca4d46;
 }
 .btn.outline:disabled:focus, .btn.outline:disabled:hover, .btn:link.outline:disabled:focus, .btn:link.outline:disabled:hover, .btn:visited.outline:disabled:focus, .btn:visited.outline:disabled:hover, button.outline:disabled:focus, button.outline:disabled:hover, input[type='button'].outline:disabled:focus, input[type='button'].outline:disabled:hover, input[type='reset'].outline:disabled:focus, input[type='reset'].outline:disabled:hover, input[type='submit'].outline:disabled:focus, input[type='submit'].outline:disabled:hover {
 	background-color: inherit;
@@ -519,11 +519,11 @@ hr {
 	border-top: 0.1rem solid #dbbb2b;
 }
 a, a:link {
-	color: blue;
+	color: #ca4d46;
 	text-decoration: none;
 }
 a:hover, a:focus, a:active, a:link:hover, a:link:focus, a:link:active, a:visited:hover, a:visited:focus, a:visited:active {
-	color: #b4991f;
+	color: #ca4d46;
 	outline: 0;
 }
 input[type='email'], input[type='number'], input[type='password'], input[type='search'], input[type='tel'], input[type='text'], input[type='url'], input[type='color'], input[type='date'], input[type='month'], input[type='week'], input[type='datetime'], input[type='datetime-local'], input:not([type]), textarea, select {
