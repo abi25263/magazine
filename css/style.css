@@ -118,14 +118,22 @@ h4 {
 }
 h5 {
   font-family: 'Fira Sans', sans-serif;
-  font-size: 3.2rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 700;
   line-height: auto;
   padding: none;
   margin: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: coral;
+  /* text-transform: uppercase; */
+  letter-spacing: 1px;
+  color: black;
+}
+hr {
+    border:         none;
+    border-left:    3px solid #72aa8b;
+    height:         20vh;
+    width:          1px;
+    grid-column: 7/8;
+    grid-row: 22;
 }
 
 
@@ -405,6 +413,7 @@ Hero image style homepage------------------------------------  */
     color: white;
     padding : 15px;
     top: -4px;
+    /* -webkit-text-sstroke-width: .5px white; */
     /* box-shadow: 10px 10px 0 0 coral; */
     /* heigth:80px; */
     /* width:500px; */
@@ -455,7 +464,7 @@ container 2 chef section style here-------------------------  */
     /* background-color: #ffee56; */
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 50px);
+    grid-template-rows: repeat(17, 50px);
     /*grid-column-gap: 20px;*/
     height: 102vh;
     max-width: 97vw;
@@ -495,7 +504,7 @@ container 2 chef section style here-------------------------  */
   line-height: 3em;
   margin-left: 30px;
   /* padding-right:20px; */
-  -webkit-text-stroke-width: .5px;
+  /* -webkit-text-stroke-width: .5px; */
   /* line-height: 40px; */
   /* color: #41553d; */
   /* -webkit-text-stroke-width: .5px; */
@@ -519,9 +528,11 @@ container 2 chef section style here-------------------------  */
   grid-row: 8;
 }
 .cheftextfour {
-  grid-column: 12/14;
-  grid-row: 12;
+  grid-column: 12/15;
+  grid-row: 14;
   position:relative;
+  font-style: extrabold;
+  font-size: 1.5em;
 }
 /* .boxy {
   grid-column: 9/16;
@@ -663,8 +674,8 @@ container 3 winemaker section style here-------------------------  */
     /* background-color: #ffee56; */
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 50px);
-    height: 90vh;
+    grid-template-rows: repeat(17, 50px);
+    height: 100vh;
     max-width: 100vw;
     margin-top:40px;
 }
@@ -697,7 +708,7 @@ container 3 winemaker section style here-------------------------  */
   font-style: bold;
   font-size: 1em;
   line-height: 3em;
-  -webkit-text-stroke-width: .5px;
+  /* -webkit-text-stroke-width: .5px; */
   /* line-height: 40px; */
   color: black;
   /* -webkit-text-stroke: 1px blue; */
@@ -705,7 +716,7 @@ container 3 winemaker section style here-------------------------  */
 }
 .toptentexttwo {
   grid-column: 7/13;
-  grid-row: 13;
+  grid-row: 15;
   font-style: extrabold;
   font-size: 1.5em;
 }
@@ -755,9 +766,9 @@ container 4 winemaker section style here-------------------------  */
     /* background-color: blue; */
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 50px);
+    grid-template-rows: repeat(17, 50px);
     /*grid-column-gap: 20px;*/
-    height: 90vh;
+    height: 100vh;
     max-width: 97vw;
     margin-top:40px;
 }
@@ -782,8 +793,8 @@ container 4 winemaker section style here-------------------------  */
     /* transform: rotate(-10deg); */
 }
 .winemakertext {
-    grid-column: 3/8;
-    grid-row: 10;
+    grid-column: 2/7;
+    grid-row: 9;
     /* background-color: #ffee56; */
     /* transform: rotate(-30deg); */
     font-family: 'Roboto', sans-serif;
@@ -791,7 +802,7 @@ container 4 winemaker section style here-------------------------  */
     font-style: bold;
     font-size: 1em;
     line-height: 3em;
-    -webkit-text-stroke-width: .5px;
+    /* -webkit-text-stroke-width: .5px; */
     /* line-height: 40px; */
     color: black;
     /* -webkit-text-stroke: 1px blue; */
@@ -807,8 +818,8 @@ container 4 winemaker section style here-------------------------  */
     -webkit-text-stroke-width: 2px;
 }
 .winemakertexttwo {
-  grid-column: 3/8;
-  grid-row: 12/16;
+  grid-column: 2/5;
+  grid-row: 14;
   /* transform: rotate(90deg); */
   font-style: extrabold;
   font-size: 1.5em;
@@ -828,9 +839,9 @@ container 5 recipe section style here-------------------------  */
     /* background-color: red; */
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 100px);
+    grid-template-rows: repeat(17, 100px);
     /*grid-column-gap: 20px;*/
-    height: 97vh;
+    height: 130vh;
     max-width: 97vw;
     margin-top:40px;
 }
@@ -855,12 +866,12 @@ container 5 recipe section style here-------------------------  */
   }
 
 .recipetext {
-  grid-column: 11/17;
-  grid-row: 8;
+  grid-column: 12/17;
+  grid-row: 7;
   font-style: bold;
   font-size: 1em;
   line-height: 3em;
-  -webkit-text-stroke-width: .5px;
+  /* -webkit-text-stroke-width: .5px; */
   /* line-height: 40px; */
   color: black;
   /* -webkit-text-stroke: 1px blue; */
@@ -876,8 +887,8 @@ container 5 recipe section style here-------------------------  */
     -webkit-text-stroke-width: 2px;
 }
 .recipetexttwo {
-  grid-column: 11/16;
-  grid-row: 7/9;
+  grid-column: 10/16;
+  grid-row: 10;
   /* transform: rotate(90deg); */
   font-style: extrabold;
   font-size: 1.5em;
@@ -893,9 +904,9 @@ container 5 summer party section style here-------------------------  */
     /* background-color: orange; */
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 100px);
+    grid-template-rows: repeat(17, 100px);
     /*grid-column-gap: 20px;*/
-    height: 90vh;
+    height: 100vh;
     max-width: 97vw;
     margin-top:40px;
 }
@@ -921,14 +932,14 @@ container 5 summer party section style here-------------------------  */
   }
 
 .eventtext {
-  grid-column: 8/14;
+  grid-column: 9/16;
   grid-row: 6;
   /* transform: rotate(-15deg); */
   color: black;
   font-style: bold;
   font-size: 1em;
   line-height: 3em;
-  -webkit-text-stroke-width: .5px;
+  /* -webkit-text-stroke-width: .5px; */
 }
 
 #event .containerheader {
@@ -942,7 +953,7 @@ container 5 summer party section style here-------------------------  */
 }
 .eventtexttwo {
   grid-column: 5/15;
-  grid-row: 7;
+  grid-row: 8;
   /* transform: rotate(90deg); */
   font-style: extrabold;
   font-size: 1.5em;
@@ -958,9 +969,9 @@ container 6 oil pulling section style here-------------------------  */
     /* background-color: orange; */
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(12, 100px);
+    grid-template-rows: repeat(14, 100px);
     /*grid-column-gap: 20px;*/
-    height: 100vh;
+    height: 115vh;
     max-width: 97vw;
     margin-top:40px;
 }
@@ -976,13 +987,13 @@ container 6 oil pulling section style here-------------------------  */
 }
 .oiltext {
   grid-column: 8/18;
-  grid-row: 7;
+  grid-row: 8;
   /* transform: rotate(-15deg); */
   color: black;
   font-style: extrabold;
   font-size: 1em;
   line-height: 3em;
-  -webkit-text-stroke-width: .5px;
+  /* -webkit-text-stroke-width: .5px; */
   /* text-shadow: */
   /* font-style: italic; */
   /* text-shadow: 2px 1px 2px coral, 0 0 25px blue, 0 0 5px darkblue; */
@@ -998,8 +1009,8 @@ container 6 oil pulling section style here-------------------------  */
     -webkit-text-stroke-width: 2px;
 }
 .oiltextone {
-  grid-column: 5/8;
-  grid-row: 8/9;
+  grid-column: 7/11;
+  grid-row: 9;
   /* transform: rotate(90deg); */
   font-style: extrabold;
   font-size: 1.5em;
@@ -1017,7 +1028,7 @@ container 7 dinner section style here-------------------------  */
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(12, 100px);
     /*grid-column-gap: 20px;*/
-    height: 100vh;
+    height: 120vh;
     max-width: 97vw;
     margin-top:40px;
 }
@@ -1033,7 +1044,7 @@ container 7 dinner section style here-------------------------  */
 }
 .dinnertext {
   grid-column: 7/15;
-  grid-row: 6;
+  grid-row: 7;
   /* transform: rotate(-15deg); */
   color: black;
   font-style: extrabold;
@@ -1047,7 +1058,7 @@ container 7 dinner section style here-------------------------  */
     grid-column: 1/16;
     grid-row: 1/3;
     position: relative;
-    top: -40px;
+    top: 35px;
     line-height: 9em;
     color: #72aa8b;
     -webkit-text-stroke-width: 2px;
@@ -1060,12 +1071,12 @@ container 7 dinner section style here-------------------------  */
 }
 .dinnertexttwo {
   grid-column: 10/18;
-  grid-row: 4;
+  grid-row: 6;
   color: black;
   font-style: extrabold;
   font-size: 1em;
   line-height: 3em;
-  -webkit-text-stroke-width: .5px;
+  /* -webkit-text-stroke-width: .5px; */
 }
 
 
@@ -2996,11 +3007,12 @@ recipe homepage here *********************  */
   /* transform: rotate(-30deg); */
 }
 .recipehometextone {
-  grid-column: 2/7;
+  grid-column: 3/7;
   grid-row: 21;
   /* transform: rotate(90deg); */
   font-style: extrabold;
   font-size: 2.5em;
+  /* background-color: #72aa8b; */
 }
 .containermakes h5{
   /* text-transform: lowercase; */
@@ -3016,7 +3028,7 @@ recipe homepage here *********************  */
   /* transform: rotate(-30deg); */
 }
 .recipehometexttwo {
-  grid-column: 6/17;
+  grid-column: 6/12;
   grid-row: 20;
   /* transform: rotate(90deg); */
   font-style: extrabold;
@@ -3043,13 +3055,19 @@ recipe homepage here *********************  */
 }
 .recipehometextfour {
   grid-column: 2/7;
-  grid-row: 26/39;
+  grid-row: 27/40;
   /* transform: rotate(90deg); */
   font-style: extrabold;
   font-size: 2em;
-  background-color: #f6b554;
+  /* background-color: #f6b554; */
   position:relative;
-    border: 3px solid #41553d;
+    /* border: 3px solid #41553d; */
+}
+.recipelist {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.5rem;
+  text-transform: lowercase;
+  line-height: 2em;
 }
 .containerdirections {
   text-transform: capitalize;
@@ -3113,7 +3131,8 @@ recipe homepage here *********************  */
   grid-row: 26;
   /* transform: rotate(90deg); */
   font-style: extrabold;
-  font-size: 2em;
+  font-size: 1.75em;
+  line-height: 2em;
 }
 .containerdirectionone {
   text-transform: lowercase;
@@ -3150,7 +3169,8 @@ recipe homepage here *********************  */
   grid-row: 30;
   /* transform: rotate(90deg); */
   font-style: extrabold;
-  font-size: 2em;
+  font-size: 1.75em;
+  line-height: 2em;
 }
 .containerdirectiontwo {
   text-transform: lowercase;
@@ -3185,7 +3205,8 @@ recipe homepage here *********************  */
   grid-row: 34;
   /* transform: rotate(90deg); */
   font-style: extrabold;
-  font-size: 2em;
+  font-size: 1.75em;
+  line-height: 2em;
 }
 .containerdirectionthree {
   text-transform: lowercase;
@@ -3246,9 +3267,9 @@ oil pulling homepage starts here *******************/
     /* background-color: #ffee56; */
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 50px);
+    grid-template-rows: repeat(100, 50px);
     /*grid-column-gap: 20px;*/
-    height: 450vh;
+    height: 650vh;
     max-width: 97vw;
     margin-top:40px;
     /* border-top-style: solid; */
@@ -3263,9 +3284,10 @@ oil pulling homepage starts here *******************/
     top: 20px;
 }
 .oilhometext {
-  grid-column: 12/18;
-  grid-row: 10/12;
-  transform: rotate(90deg);
+  grid-column: 2/9;
+  grid-row: 49;
+  /* position:relative; */
+  /* transform: rotate(90deg); */
   /* color: red; */
   font-style: extrabold;
   font-size: 2.5em;
@@ -3273,14 +3295,89 @@ oil pulling homepage starts here *******************/
   /* font-style: italic; */
   /* text-shadow: 1px 1px 2px ; */
 }
+.oilhometexttwo {
+  grid-column: 6/12;
+  grid-row: 16;
+  transform: rotate(0deg);
+  font-style: bold;
+  font-size: 1.5em;
+  /* line-height: 40px; */
+  color: black;
+  -webkit-text-stroke: .5px black;
+  text-align: left;
+  /* text-decoration: underline; */
+
+  /* text-align: left; */
+  /* background-color: #ffee56; */
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+}
+.oilhometextthree {
+  grid-column: 12/20;
+  grid-row: 26;
+  transform: rotate(0deg);
+  font-style: bold;
+  font-size: 1.2em;
+  line-height: 40px;
+  color: black;
+  /* -webkit-text-stroke: 1px blue; */
+  text-align: left;
+
+  /* text-align: left; */
+  /* background-color: #ffee56; */
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+}
+/* .boxy {
+  grid-column: 9/16;
+  z-index: 1000px;
+  grid-row:5;
+  transform: rotate(0deg);
+
+
+
+  background-color: #ffee56;
+}
+.special {
+  font-size: 1em;
+} */
+/* .readone {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  transform: rotate(0deg);
+  font-style: bold;
+  font-size: 1.2em;
+  line-height: 40px;
+  color:black;
+  text-align: left;
+
+} */
+
+.oilhometextfour {
+  grid-column: 8/16;
+  grid-row: 18/20;
+  transform: rotate(0deg);
+  /* font-style: bold; */
+  font-size: 1.2em;
+  line-height: 40px;
+  color: black;
+  /* -webkit-text-stroke: 1px blue; */
+  /* text-align: justify; */
+
+  /* text-align: left; */
+  /* background-color: #ffee56; */
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+}
 #oilhomepage .containerheaderoil {
-    grid-column: 2/14;
-    grid-row: 4/6;
+  /* margin-top:50px; */
+    grid-column: 2/8;
+    grid-row: 3/6;
     position: relative;
-    top: -120px;
-    line-height: 8em;
-    color: blue;
-    /* -webkit-text-stroke: 3px red; */
+    top: -60px;
+    line-height: 10em;
+    color: #72aa8b;
+    -webkit-text-stroke-width: 2px;
 }
 
 .containerheaderoil h4 {
@@ -3291,19 +3388,353 @@ oil pulling homepage starts here *******************/
     /* text-shadow: 4px 4px blue; */
     text-transform: lowercase;
     font-weight: 900;
-    font-size: 10em;
+    font-size: 12em;
     text-align: right;
 
-    padding-top: 2vh;
+    /* padding-top: 2vh; */
     z-index: 999;
 }
 
 .oilhomeone {
-    grid-column: 1/13;
-    grid-row: 6/12;
+    grid-column: 1/12;
+    grid-row: 7/15;
 }
 
-.oilone img {
+.oilhomeone img {
+    height: 100%;
+    width: 100%;
+}
+
+.oilhometwo {
+    grid-column: 4/13;
+    grid-row: 26/29;
+    padding-bottom: 5vh;
+}
+
+.oilhometwo img {
+    height: 100%;
+    width: 100%;
+}
+.oilhomethree {
+    grid-column: 11/16;
+    grid-row: 37;
+    /* padding-bottom: 5vh; */
+}
+
+.oilhomethree img {
+    height: 100%;
+    width: 100%;
+}
+.oilhomefour {
+    grid-column: 11/18;
+    grid-row: 5;
+    padding-bottom: 5vh;
+}
+
+.oilhomefour img {
+    height: 100%;
+    width: 100%;
+}
+.oilhomefive {
+    grid-column: 1/7;
+    grid-row: 53;
+    padding-bottom: 5vh;
+}
+
+.oilhomefive img {
+    height: 100%;
+    width: 100%;
+}
+.oilhomesix {
+    grid-column: 9/15;
+    grid-row: 54;
+    padding-bottom: 5vh;
+}
+
+.oilhomesix img {
+    height: 100%;
+    width: 100%;
+}
+.oilhomeseven {
+    grid-column: 11/18;
+    grid-row: 69;
+    padding-bottom: 5vh;
+}
+
+.oilhomeseven img {
+    height: 100%;
+    width: 100%;
+}
+.containerparagraphoilthree {
+  /* text-transform: lowercase; */
+  /* text-transform: capitalize; */
+  font-weight: 50;
+  font-size: 2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 3vh;
+  z-index: 999;
+  font-style: italics;
+  /* background-color: #ffee56; */
+  /* border: 2px solid red;
+    padding: 10px;
+    border-radius: 25px; */
+  /* transform: rotate(-20deg); */
+}
+/* .containerparagraphchefthree::before{
+  font-family: 'Fira Sans', sans-serif;
+  content: "\201C";
+  color:coral;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-20px;
+}
+
+.containerparagraphchefthree::after{
+  content: '';
+}
+
+.containerparagraphchefthree span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1.2em;
+} */
+/* ****************** pull quotes  */
+/* .containerparagraphcheftwo::before{
+  font-family: 'Fira Sans', sans-serif;
+  content: "\201C";
+  color:coral;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-20px;
+}
+
+.containerparagraphcheftwo::after{
+  content: '';
+}
+
+.containerparagraphcheftwo span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+} */
+/*pull quote end  */
+
+.containerparagraphoiltwo {
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
+  font-weight: 50;
+  font-size: 3em;
+  line-height: 1.2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+
+  font-style: normal;
+  /* background-color: #ffee56; */
+}
+
+.containerparagraphoilone {
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
+  font-weight: 50;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+
+  font-style: normal;
+  /* background-color: #ffee56; */
+}
+.containerparagraphoilfour {
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+  font-weight: normal;
+  font-size: 1.5em;
+
+  line-height: 40px;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+  /* background-color: coral;  */
+}
+.containerparagraphoilfive {
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
+  font-weight: 50;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+
+  font-style: normal;
+}
+.oilhometextfive {
+  grid-column: 3/10;
+  grid-row: 34;
+  top: -20vh;
+  /* margin-top: 50px; */
+  /* transform: rotate(90deg); */
+  /* color: red; */
+  font-style: extrabold;
+  font-size: 2.5em;
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+  /* text-shadow: 1px 1px 2px ; */
+}
+
+.oilhometextnine{
+  grid-column: 9/16;
+  grid-row: 64;
+  top: -20vh;
+  /* margin-top: 50px; */
+  /* transform: rotate(90deg); */
+  /* color: red; */
+  font-style: extrabold;
+  font-size: 2.5em;
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+  /* text-shadow: 1px 1px 2px ; */
+}
+.containerparagraphoilnine {
+  text-transform: uppercase;
+  /* text-transform: capitalize; */
+  font-weight: 50;
+  font-size: 2em;
+  line-height: 1.2em;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+
+  font-style: normal;
+}
+.oilhometextsix {
+  grid-column: 3/11;
+  grid-row: 37;
+  /* top: -20vh; */
+  /* transform: rotate(90deg); */
+  /* color: red; */
+  font-style: extrabold;
+  font-size: 2.5em;
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+  /* text-shadow: 1px 1px 2px ; */
+
+}
+.containerparagraphoilsix {
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+  font-weight: 30;
+  font-size: 0.75em;
+  line-height: 30px;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+  /* background-color: #f6b554; */
+  /* border: 3px solid #41553d; */
+  margin:30px;
+
+}
+.oilhometextseven {
+  grid-column: 5/15;
+  grid-row: 51;
+  top: -20vh;
+  /* transform: rotate(90deg); */
+  /* color: red; */
+  font-style: extrabold;
+  font-size: 2.5em;
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+  /* text-shadow: 1px 1px 2px ; */
+
+}
+.containerparagraphoilseven {
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+  font-weight: 30;
+  font-size: 0.75em;
+  line-height: 30px;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+  /* background-color: #f6b554; */
+  /* border: 3px solid #41553d; */
+  margin:30px;
+
+  /* background-color: #ffee56; */
+
+}
+.oilhometexteight {
+  grid-column: 1/10;
+  grid-row: 67;
+  top: -20vh;
+  /* transform: rotate(90deg); */
+  /* color: red; */
+  font-style: extrabold;
+  font-size: 2.5em;
+  /* text-transform: lowercase; */
+  /* font-style: italic; */
+  /* text-shadow: 1px 1px 2px ; */
+
+}
+.containerparagraphoileight {
+  text-transform: lowercase;
+  /* text-transform: capitalize; */
+  font-weight: 30;
+  font-size: 0.75em;
+  line-height: 30px;
+  text-align: left;
+  height: 50vh;
+  width: auto;
+  padding-top: 2vh;
+  z-index: 999;
+  color: #000000;
+  /* background-color: #f6b554; */
+  /* border: 3px solid #41553d; */
+  margin:30px;
+
+  /* background-color: #ffee56; */
+
+}
+
+/******************************************
+Dinner homepage here ******************  */
+.dinnerhomeone {
+    grid-column: 1/19;
+    grid-row: 7;
+}
+
+.dinnerhomeone img {
     height: 100%;
     width: 100%;
 }
