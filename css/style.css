@@ -1655,7 +1655,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductone {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -1718,7 +1718,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproducttwo {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -1755,7 +1755,7 @@ topten homepage ****************************/
     z-index: 999;
 }
 .toptenhometextthree {
-  grid-column: 1/9;
+  grid-column: 1/8;
   grid-row: 34/36;
   /* transform: rotate(-20deg); */
   font-style: bold;
@@ -1780,7 +1780,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductthree {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -1843,7 +1843,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductfour {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -1907,7 +1907,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductfive {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -1970,7 +1970,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductsix {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -2008,7 +2008,7 @@ topten homepage ****************************/
     z-index: 999;
 }
 .toptenhometextseven {
-  grid-column: 1/9;
+  grid-column: 1/8;
   grid-row: 89;
   /* transform: rotate(-20deg); */
   position: relative;
@@ -2034,7 +2034,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductseven {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -2071,7 +2071,7 @@ topten homepage ****************************/
     z-index: 999;
 }
 .toptenhometexteight {
-  grid-column: 9/18;
+  grid-column: 10/18;
   grid-row: 113;
   /* transform: rotate(-20deg); */
   position: relative;
@@ -2097,7 +2097,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproducteight {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -2160,7 +2160,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductnine {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
@@ -2198,7 +2198,7 @@ topten homepage ****************************/
 }
 .toptenhometextten {
   grid-column: 8/18;
-  grid-row: 150;
+  grid-row: 152;
   /* transform: rotate(-20deg); */
   position: relative;
   font-style: bold;
@@ -2223,7 +2223,7 @@ topten homepage ****************************/
   /* transform: rotate(-30deg); */
 }
 .textproductten {
-  /* text-transform: capitalize; */
+  text-transform: inherit;
   font-weight: 70;
   font-size: 1.2em;
   text-align: left;
